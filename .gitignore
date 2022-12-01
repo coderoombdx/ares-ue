@@ -2,6 +2,7 @@ Binaries
 DerivedDataCache
 Intermediate
 Saved
+Build
 .vscode
 .vs
 *.VC.db
@@ -12,3 +13,9 @@ Saved
 *.suo
 *.xcodeproj
 *.xcworkspace
+
+# Vendor assets
+Content/DeadHillsLandscape
+Content/ModSciInteriors
+Content/ModSci_EngiProps
+Content/ModSci_Engineer

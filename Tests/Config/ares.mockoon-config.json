@@ -1,0 +1,70 @@
+{
+  "uuid": "d0fd5370-4aa8-4589-a0d6-06eefa6f5654",
+  "lastMigration": 24,
+  "name": "Ares",
+  "endpointPrefix": "mockoon",
+  "latency": 0,
+  "port": 3002,
+  "hostname": "0.0.0.0",
+  "routes": [
+    {
+      "uuid": "8fb27cb7-2d50-4dec-815c-1be3d7fb439e",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "state",
+      "responses": [
+        {
+          "uuid": "36f8a254-4f5e-4be1-b377-e969e5c626ea",
+          "body": "{\n  \"compteARebours\": 1670,\n  \"compteAReboursTimeStamp\": 1670499924,\n  \"dernierMessage\": \"Vous n'êtes pas prêts\",\n  \"electriciteGenerale\": \"OFF\",\n  \"dernirereAlarme\": 999,\n  \"scenario1\": {\n    \"porte1\": \"FERME\"\n  },\n  \"scenario2\": {\n    \"porte1\": \"FERME\"\n  }\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "filePath": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "databucketID": "",
+          "bodyType": "INLINE"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": []
+}

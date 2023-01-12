@@ -15,7 +15,7 @@
       "responses": [
         {
           "uuid": "36f8a254-4f5e-4be1-b377-e969e5c626ea",
-          "body": "{\n  \"compteARebours\": 1670,\n  \"compteAReboursTimeStamp\": 1670499924,\n  \"dernierMessage\": \"Vous n'êtes pas prêts\",\n  \"electriciteGenerale\": \"OFF\",\n  \"dernirereAlarme\": 999,\n  \"scenario1\": {\n    \"porte1\": \"FERME\"\n  },\n  \"scenario2\": {\n    \"porte1\": \"FERME\"\n  }\n}",
+          "body": "{\n  \"compteARebours\": 1670,\n  \"timestempFinDuJeu\": 1670499924,\n  \"dernierMessage\": \"Vous n'êtes pas prêts\",\n  \"electriciteGenerale\": \"OFF\",\n  \"dernirereAlarme\": 999,\n  \"scenario1\": {\n    \"porte1\": \"FERME\"\n  },\n  \"scenario2\": {\n    \"porte1\": \"FERME\"\n  }\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "",

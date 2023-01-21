@@ -2,7 +2,7 @@
   "uuid": "d0fd5370-4aa8-4589-a0d6-06eefa6f5654",
   "lastMigration": 24,
   "name": "Ares",
-  "endpointPrefix": "mockoon",
+  "endpointPrefix": "mockoon/api",
   "latency": 0,
   "port": 3002,
   "hostname": "0.0.0.0",
@@ -11,11 +11,11 @@
       "uuid": "8fb27cb7-2d50-4dec-815c-1be3d7fb439e",
       "documentation": "",
       "method": "get",
-      "endpoint": "state",
+      "endpoint": "jeu",
       "responses": [
         {
           "uuid": "36f8a254-4f5e-4be1-b377-e969e5c626ea",
-          "body": "{\n  \"compteARebours\": 1670,\n  \"timestempFinDuJeu\": 1670499924,\n  \"dernierMessage\": \"Vous n'êtes pas prêts\",\n  \"electriciteGenerale\": \"OFF\",\n  \"dernirereAlarme\": 999,\n  \"scenario1\": {\n    \"porte1\": \"FERME\"\n  },\n  \"scenario2\": {\n    \"porte1\": \"FERME\"\n  }\n}",
+          "body": "{\r\n  \"compteARebours\": 2700,\r\n  \"timestampFinDuJeu\": 1670601296,\r\n  \"messageAide\": \"Hello World !\",\r\n  \"electriciteGenerale\": \"OFF\",\r\n  \"derniereAlarme\": 0,\r\n  \"scenario1\": {\r\n    \"porte1\": \"OUVERT\"\r\n  },\r\n  \"scenario2\": {\r\n    \"porte1\": \"FERME\"\r\n  }\r\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "",
